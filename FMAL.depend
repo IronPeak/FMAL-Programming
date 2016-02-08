@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1454953741 source:c:\users\ironpeak-win\desktop\fmal\main.cpp
+	"Lexer.h"
+	"Parser.h"
+
+1454962450 source:c:\users\ironpeak-win\desktop\fmal\src\lexer.cpp
+	"Lexer.h"
+
+1454952067 c:\users\ironpeak-win\desktop\fmal\include\lexer.h
+	<string>
+	<iostream>
+
+1454962956 source:c:\users\ironpeak-win\desktop\fmal\src\parser.cpp
+	"Parser.h"
+
+1454959632 c:\users\ironpeak-win\desktop\fmal\include\parser.h
+	"Lexer.h"
+
