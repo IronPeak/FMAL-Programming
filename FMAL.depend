@@ -41,26 +41,26 @@
 1455041458 source:c:\users\ironpeak\desktop\fmal-programming\src\token.cpp
 	"Token.h"
 
-1455042828 source:c:\users\ironpeak\desktop\fmal-programming\compiler.cpp
+1455057341 source:c:\users\ironpeak\desktop\fmal-programming\compiler.cpp
 	"Lexer.h"
 	"Parser.h"
 
-1455045289 c:\users\ironpeak\desktop\fmal-programming\lexer.h
+1455057103 c:\users\ironpeak\desktop\fmal-programming\lexer.h
 	<string>
 	<iostream>
 	<queue>
 	"Token.h"
 
-1455043117 c:\users\ironpeak\desktop\fmal-programming\token.h
+1455057290 c:\users\ironpeak\desktop\fmal-programming\token.h
 	<string>
 
 1455042815 c:\users\ironpeak\desktop\fmal-programming\parser.h
 	"Lexer.h"
 
-1455046165 source:c:\users\ironpeak\desktop\fmal-programming\lexer.cpp
+1455058108 source:c:\users\ironpeak\desktop\fmal-programming\lexer.cpp
 	"Lexer.h"
 
-1455043453 source:c:\users\ironpeak\desktop\fmal-programming\parser.cpp
+1455057228 source:c:\users\ironpeak\desktop\fmal-programming\parser.cpp
 	"Parser.h"
 
 1455042702 source:c:\users\ironpeak\desktop\fmal-programming\token.cpp

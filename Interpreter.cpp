@@ -18,10 +18,9 @@ int main()
     map<string, int> variables;
     stack<string> thestack;
 
-    while(true)
+	string cmd;
+    while(cin >> cmd)
 	{
-		string cmd;
-		cin >> cmd;
 		if(cmd == "PUSH")
 		{
 			string var;

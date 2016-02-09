@@ -100,16 +100,6 @@ bool Lexer::isID(const string& token) const
     return token.size() > 0;
 }
 
-bool Lexer::isASSIGN(const char& token) const
-{
-    return token == '=';
-}
-
-bool Lexer::isSEMICOL(const char& token) const
-{
-    return token == ';';
-}
-
 bool Lexer::isINT(const string& token) const
 {
     for(unsigned int i = 0; i < token.size(); i++)
@@ -120,31 +110,6 @@ bool Lexer::isINT(const string& token) const
         }
     }
     return token.size() > 0;
-}
-
-bool Lexer::isADD(const char& token) const
-{
-    return token == '+';
-}
-
-bool Lexer::isSUB(const char& token) const
-{
-    return token == '-';
-}
-
-bool Lexer::isMULT(const char& token) const
-{
-    return token == '*';
-}
-
-bool Lexer::isLPAREN(const char& token) const
-{
-    return token == '(';
-}
-
-bool Lexer::isRPAREN(const char& token) const
-{
-    return token == ')';
 }
 
 bool Lexer::isPRINT(const string& token) const
