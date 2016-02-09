@@ -16,3 +16,53 @@
 1454959632 c:\users\ironpeak-win\desktop\fmal\include\parser.h
 	"Lexer.h"
 
+1455020556 source:c:\users\ironpeak\desktop\fmal-programming\main.cpp
+	"Lexer.h"
+	"Parser.h"
+
+1455041147 c:\users\ironpeak\desktop\fmal-programming\include\lexer.h
+	<string>
+	<iostream>
+	<queue>
+	"Token.h"
+
+1455041190 c:\users\ironpeak\desktop\fmal-programming\include\parser.h
+	"Lexer.h"
+
+1455041160 source:c:\users\ironpeak\desktop\fmal-programming\src\lexer.cpp
+	"Lexer.h"
+
+1455041438 source:c:\users\ironpeak\desktop\fmal-programming\src\parser.cpp
+	"Parser.h"
+
+1455041324 c:\users\ironpeak\desktop\fmal-programming\include\token.h
+	<string>
+
+1455041458 source:c:\users\ironpeak\desktop\fmal-programming\src\token.cpp
+	"Token.h"
+
+1455042828 source:c:\users\ironpeak\desktop\fmal-programming\compiler.cpp
+	"Lexer.h"
+	"Parser.h"
+
+1455045289 c:\users\ironpeak\desktop\fmal-programming\lexer.h
+	<string>
+	<iostream>
+	<queue>
+	"Token.h"
+
+1455043117 c:\users\ironpeak\desktop\fmal-programming\token.h
+	<string>
+
+1455042815 c:\users\ironpeak\desktop\fmal-programming\parser.h
+	"Lexer.h"
+
+1455046165 source:c:\users\ironpeak\desktop\fmal-programming\lexer.cpp
+	"Lexer.h"
+
+1455043453 source:c:\users\ironpeak\desktop\fmal-programming\parser.cpp
+	"Parser.h"
+
+1455042702 source:c:\users\ironpeak\desktop\fmal-programming\token.cpp
+	"Token.h"
+

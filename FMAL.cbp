@@ -34,11 +34,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Lexer.h" />
-		<Unit filename="include/Parser.h" />
-		<Unit filename="main.cpp" />
-		<Unit filename="src/Lexer.cpp" />
-		<Unit filename="src/Parser.cpp" />
+		<Unit filename="Compiler.cpp" />
+		<Unit filename="Lexer.cpp" />
+		<Unit filename="Lexer.h" />
+		<Unit filename="Parser.cpp" />
+		<Unit filename="Parser.h" />
+		<Unit filename="Token.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

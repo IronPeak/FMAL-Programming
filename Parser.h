@@ -9,19 +9,19 @@ class Parser
 {
     public:
         Parser(Lexer* lexer);
-        virtual ~Parser();
 
         void parse();
     private:
         Lexer* lexer;
-        TokenCode tCode;
+        Token token;
 
         void parseStatement();
         void parseExpr();
         void parseTerm();
         void parseFactor();
 
-        void expect(TokenCode expectation);
+        void expect(TokenCode expectation, string msg);
+        void error(string msg);
 };
 
 #endif // PARSER_H
