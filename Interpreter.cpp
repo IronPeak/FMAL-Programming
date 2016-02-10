@@ -115,7 +115,6 @@ int main()
 			thestack.pop();
 			string dst = thestack.top();
 			thestack.pop();
-			//should determine if src is a number and that the variable dst exists
 			if(isID(dst))
 			{
 				variables[dst] = getValue(variables, src);
@@ -168,6 +167,7 @@ int getValue(map<string, int>& variables, string var)
 	{
 		return variables[var];
 	}
+	//if var is not a number or a variable we've encountered an error
 	throw;
 }
 

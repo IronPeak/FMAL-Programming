@@ -7,16 +7,19 @@ Parser::Parser(Lexer* lexer)
 
 void Parser::parse()
 {
+    try {
     token = lexer->nextToken();
     parseStatement();
+    }
+    catch(...) {
+        return;
+    }
 }
 
 void Parser::parseStatement()
 {
     switch(token.getCode())
     {
-    case ERROR:
-        return;
     case END:
         return;
     case ID:
